@@ -5,7 +5,7 @@ let data = [
       //id= 1,
       brand: "HYDRATING FACE CREAM",
       category: "Skincare",
-      price: "5000",
+      price: "500",
       discount: "OFF 20%",
       color: ["white", "peach", "brown"],
       img: [
@@ -31,7 +31,7 @@ let data = [
       //id= 3,
       brand: "CORRECTOR",
       category: "Makeup",
-      price: "2000",
+      price: "200",
       discount: "OFF 40%",
       color: ["white", "peach", "brown"],
       img: [
@@ -103,7 +103,7 @@ let data = [
   //id= 8,
   brand: "VITAMIN ENRICHED EYE BASE",
   category: "Skincare",
-  price: "5000",
+  price: "600",
   discount: "OFF 20%",
   color: ["white", "peach", "brown"],
   img: [
@@ -177,7 +177,7 @@ let data = [
   //id= 13,
   brand: "HIGHLIGHTING POWDER",
   category: "Makeup",
-  price: "5000",
+  price: "5050",
   discount: "OFF 20%",
   color: ["white", "peach", "brown"],
   img: [
@@ -351,7 +351,7 @@ let data = [
  // id= 25,
   brand: "HIGHLIGHTING POWDER",
   category: "Skincare",
-  price: "5001",
+  price: "4000",
   discount: "OFF 20%",
   color: ["white", "peach", "brown"],
   img: [

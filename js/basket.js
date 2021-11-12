@@ -56,6 +56,7 @@ document.querySelector("#total").innerHTML = `<h1 id="totalDisplayDiv">total cos
                     <button onClick="removeAllItems()" id="removeItems">removeAll Items</button>  `;
 
   function goToCheckout(){
+      alert("SignIN first")
       window.location.href="signUP.html";
     //   window.location.href="checkout.html"
   };

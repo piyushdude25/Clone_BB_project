@@ -14,9 +14,9 @@ document.querySelector("button").addEventListener("click",signIn, false);
                  regdUsers[i].password == pass){
                     window.location.href="checkout.html";
                 }
-                else if(regdUsers[i].email != email &&
+                else if(regdUsers[i].email != email ||
                  regdUsers[i].password != pass){
-                    
+                    // console.log("ok")
                     alert("Wrong Email and Password")
                 }
             }
