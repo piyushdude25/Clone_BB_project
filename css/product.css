@@ -1,0 +1,311 @@
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #FFFFFF;
+}
+
+
+#topBar{
+background-color: black;
+height:1%;
+color:white;
+
+}
+#topB1{
+    
+    display: flex;
+
+}
+#signUpSignin{
+    font-size: 110%;   
+    margin-left: 25%;  
+    margin-top: 25%;  
+    color:white;
+    text-decoration:underline black;
+    }
+    
+.logo{
+    width:35%;
+    height:50%;
+    margin:auto;
+    margin-top: 3%;
+    margin-left: 30%;
+    padding-bottom:2%;
+    
+}
+#topIcon{
+    width:200px;
+    display: flex;
+    margin-top: 1%;
+}
+.icon {
+    
+    margin:auto;
+    margin-top: 50% ;
+    width: 30px;
+    height: 30%;
+}
+
+
+
+#bottom{
+    background-color: black;
+    color: white;
+}
+#BottomTop{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#BottomTop > div{
+    margin-top: 2%;
+}
+#BottSelect{
+    background-color: black;
+    color: white;
+    padding: 5% 10%;
+    border: none;
+    border: 1px solid white;
+}
+#BottSelect > option{
+    color: white;
+}
+#BottCol3{
+    width:30%;
+}
+#BottCol3 > input{
+    width:60%;
+    margin-top: 6%;
+    padding:4% 10%;
+    background-color: black;
+    color: white;
+    border: none;
+    border: 1px solid white;
+    
+}
+#BottCol3 > h6{
+    font-size: 80%;
+    text-decoration: underline;
+}
+#BottCol3 > button{
+    background-color: black;
+    color: white;
+    padding: 3.5% 5% ;
+    border: none;
+    border: 1px solid white;
+}
+#BottCol3 > h2{
+    font-size: 110%;
+    margin-top: 10%;
+}
+#BottomLogo{
+    display: flex;
+    vertical-align: top;
+}
+
+.icon1{
+    width:10%;
+    height: 5%;
+    padding: 1%;
+    border-radius: 35%;
+    margin: 2%;
+}
+#BottEnd{
+    display: flex;
+}
+#BottEnd > div{
+    color:grey;
+    font-size: 120%;
+    
+}
+#space{
+    width: 10%;
+}
+
+
+
+#product {
+    margin: 10% 5%;
+    border: 1px solid red;
+
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-gap: 5%;;
+    justify-content: center;
+
+}
+
+
+img {
+    width: 200px;
+    /* border: 1px solid red; */
+}
+
+
+/* #displayProductDiv {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 19vw 19vw 19vw 19vw;
+    gap: 1.5%;
+    padding: 3%;
+    width: 80%;
+}
+
+#displayProductDiv>div {
+    box-sizing: border-box;
+    padding: 1%;
+    width: 100%;
+    height: auto;
+    border: 1px solid green;
+} */
+
+
+
+
+#productIndexDiv{
+    gap: 1.5%;
+    border: 2px solid blue;
+}
+
+/* #productIndexDiv> div{
+    display: grid;
+    width: 300px;
+    
+    border: 1px solid red;
+
+} */
+#displayAllItemsDiv{
+    border:3px solid gold;
+}
+
+.BBlogo{
+    width:40%;
+    margin: auto;
+    margin-top: 4.5%;
+    margin-left: 25%;
+    height:50%;
+    padding-bottom:2%;
+    
+}
+/* ========================================== */
+img{
+    width:200px;
+    
+}
+
+.basketButton{
+    background-color: black;
+    vertical-align: top;
+    color: white;
+    width: 100px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 80%;
+    margin-top: -3%;
+}
+#dis{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.divPush  {
+    /* border:3px solid gold; */
+    text-align: center;
+    
+    /* margin: auto;** */
+    /* grid-column-gap: 5px;   */
+}
+.divPush > img{
+    
+    width: 80%;
+}
+.divPush > h1{
+    font-size: 145%;
+    height: 7%;
+    line-height: 27px;
+    /* border: 1px solid red; */
+    margin-top: -2%;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.divPush > h4 {
+    font-size: 150%;
+    
+    margin-top:7%;
+    color: grey;
+    font-family:cursive;
+   
+}
+
+#colorsOption{
+    
+    width:30%;
+    vertical-align: top;
+    margin-left: 35%;
+    margin-right: 50%;
+    margin-top: -5%;
+    font-size: 100%;
+    background-color: rgb(219, 206, 206);
+    color: black;
+    /* border: none; */
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.divPush >  h3 {
+    display: inline-block;
+    color: grey;
+    vertical-align: top;
+    margin-top: 6%;
+}
+.divPush >  h2{
+    
+    width:41%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5%;
+}
+
+
+#itenAddButton{
+    cursor: pointer;
+    width: 30%;
+    margin:1%  30%;
+    background-color: black;
+    color: white;
+    border: none;
+    height: 7%;
+    border-radius: 5px;
+    margin-bottom: 7.7%;
+}
+
+.divPush > hr{
+    background-color: white;
+    display: none;
+}
+
+#sortByPrice{
+    width: 8%;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-left: 3%;
+    font-size: 100%;
+    cursor: pointer;
+}
+#sortByName{
+    width: 9%;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-left: 1%;
+    font-size: 100%;
+    cursor: pointer;
+}

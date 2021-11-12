@@ -1,0 +1,69 @@
+
+#mainSignUpBox{
+    width: 70%;
+    margin: 10% 15%;
+    border: 10px solid goldenrod;
+    padding:1%;
+    border-radius: 5px;
+}
+
+#topContent > h1{
+    font-size: 130%;
+    text-align: center;
+}
+#topContent > p{
+    font-size: 100%;
+    width: 61%;
+    margin: auto;
+    text-align: center;
+}
+
+#signUpForm >form > input{
+    width: 28%;
+    padding: 1%;
+    margin: 1%;
+}
+
+#signUpBottom{
+    display: flex;
+    
+}
+#bottomLeft{
+    /* margin-left: 1%; */
+    
+    width:66.5%;
+}
+#bottomLeft > p{
+    width:90%;
+    
+    
+}
+/* #bottomLeft > p > span {
+    color:red;
+    text-decoration: underline;
+} */
+
+/* #bottomright > a > button{
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin: auto;
+    margin-right: 80%;
+    margin-bottom: 9%;
+    padding: 5px 8px;
+    border :2px solid red;
+} */
+
+#continueBtn{
+    background-color: black;
+    color: white;
+    width: auto;
+    margin-left: -10%;
+    margin-top: 33%;
+    padding: 5px 8px;
+    margin-left: 1px;
+    /* margin-bottom: 9%; */
+    border :none;
+    border-radius: 2px;
+    cursor: pointer;
+}
