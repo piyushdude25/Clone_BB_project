@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page</title>
+    <link rel="shortcut icon" sizes="152x152" href="https://www.bobbibrown.in/sites/bobbibrown/themes/bb_base/apple-touch-icon.png">
+</head>
+<body>
+    <h1>Admin Page</h1>
+    <form id="form">
+        <input id="name" type="text" placeholder="enter name of product">
+        <input id="price" type="number" placeholder="Enter Price">
+        <select id="select">
+            <option value="">tee</option>
+            <option value="">Shoes</option>
+            <option value="">Shirt</option>
+        </select>
+        <input id="img" type="text" placeholder="enter image url">
+        <input type="submit" >
+    </form>
+
+    <button>Go to shop</button>
+
+</body>
+</html>
+
+<script>
+    document.querySelector("form").addEventListener("submit",addItem)
+    var prod = JSON.parse(localStorage.getItem("shoppingBag")) || [];
+    function addItem(e) {
+        e.preventDefault();
+        // console.log(form.name)
+
+        var productObj={
+            name:form.name.value,
+            price:form.price.value,
+            type:form.select.value,
+            image_url:form.img.value,
+        };
+        console.log(productObj);
+        prod.push(productObj);
+        localStorage.setItem("shoppingBag",JSON.stringify(prod));
+
+    }
+
+    document.querySelector("button").addEventListener("click",function(){
+        window.location.href="prod.html";
+    });
+</script>
